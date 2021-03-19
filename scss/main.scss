@@ -1,0 +1,42 @@
+// FONT
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+// VARIABLE
+$primaryColor:#393d46;
+$textColor:#ffd36a;
+$textColorsecond:white;
+$textPosition:center;
+$textWeightPrimer:bold;
+
+
+
+// STYLE 
+body {
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+.bungkus {
+    background-image: url(../img/pasangan.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+
+    h1 {
+        color: $textColor;
+        text-align: $textPosition;
+        font-weight: $textWeightPrimer;
+    }
+
+}
+
+
+h5 {
+    color: $textColorsecond;
+    text-align: $textPosition;
+}
+
+section {
+    background-color: $primaryColor;
+    height: 600px;
+}
