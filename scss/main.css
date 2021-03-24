@@ -86,6 +86,10 @@ section .row img {
   width: 300px;
 }
 
+section .galeri {
+  margin-right: 150px;
+}
+
 section .jadwal {
   text-align: left;
 }
