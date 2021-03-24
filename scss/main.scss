@@ -1,5 +1,6 @@
 // FONT
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
 // VARIABLE
 $primaryColor:#393d46;
@@ -67,11 +68,6 @@ section {
         color: $textColorsecond;
     }
 
-    img {
-        margin-top: -70px;
-        width: 400px;
-    }
-
     h1 {
         font-size: $textSize * 3;
         color: $textColor;
@@ -85,5 +81,61 @@ section {
 
     .hiasan img {
         width: 700px;
+    }
+
+    .profil h2 {
+        color: $textColor;
+    }
+
+    .profil h6 {
+        color: $textColorsecond;
+    }
+
+    .profil p {
+        font-size: $textSize / 1.5;
+    }
+
+    .row img {
+        width: 300px;
+    }
+
+    .jadwal {
+        text-align: left;
+
+        h3 {
+            color: $textColor;
+        }
+
+        p {
+            color: $textColorsecond;
+            font-size: $textSize;
+        }
+
+        span {
+            font-size: $textSize - 2;
+            color: $textColorsecond;
+        }
+    }
+
+    h5 {
+        color: $textColor;
+
+    }
+
+    footer {
+        background-color: $textColor;
+        height: 70px;
+
+        p {
+            font-size: $textSize/2;
+        }
+
+        .usigi {
+            font-family: 'Sacramento', cursive;
+            font-weight: $textWeightPrimer;
+            color: black;
+
+        }
+
     }
 }
