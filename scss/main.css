@@ -8,7 +8,7 @@ body {
   background-image: url(../img/pasangan.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 1024px;
   text-align: center;
   position: relative;
 }
@@ -19,18 +19,38 @@ body {
 }
 
 .jumbotron img {
-  width: 300px;
-  margin-top: 100px;
+  position: absolute;
+  width: 502px;
+  height: 80px;
+  left: 319px;
+  top: 353px;
 }
 
-.jumbotron h1 {
-  color: #ffd36a;
+.jumbotron .nama {
+  color: #FFD369;
   font-weight: bold;
+  position: absolute;
+  left: 121px;
+  top: 453px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 119px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.jumbotron p {
+.jumbotron .lead {
   color: white;
-  font-size: 15px;
+  position: absolute;
+  width: 625px;
+  height: 30px;
+  left: 271px;
+  top: 592px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .jumbotron::after {
@@ -44,84 +64,336 @@ body {
   bottom: 0;
 }
 
-section {
-  background-color: #393d46;
-  margin-top: -35px;
+.kotak-tanggal {
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  left: 0px;
+  top: 1024px;
+  background-color: #393E46;
   text-align: center;
 }
 
-section p {
-  font-size: 37.5px;
+.kotak-tanggal .tanggal {
   color: white;
+  position: absolute;
+  width: 544px;
+  height: 79px;
+  left: 360px;
+  top: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 79px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-section h1 {
-  font-size: 45px;
-  color: #ffd36a;
+.kotak-tanggal img {
+  position: absolute;
+  width: 572px;
+  height: 30px;
+  left: 350px;
+  top: 139px;
+}
+
+.kotak-tanggal .row {
+  position: absolute;
+  width: 900px;
+  height: 180px;
+  left: 200px;
+  top: 235px;
+}
+
+.kotak-tanggal .hari h1 {
+  position: absolute;
+  width: 115px;
+  height: 119px;
+  left: 18px;
+  top: 16px;
+  font-style: normal;
   font-weight: bold;
+  font-size: 96px;
+  line-height: 119px;
+  color: #FFD369;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-section h6 {
-  color: #ffd36a;
-  font-size: 15px;
+.kotak-tanggal .hari h6 {
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  left: 50px;
+  top: 150px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFD369;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-section .hiasan img {
-  width: 700px;
+.kotak-tanggal .jam h1 {
+  position: absolute;
+  width: 105px;
+  height: 119px;
+  left: 23px;
+  top: 16px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 119px;
+  color: #FFD369;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-section .profil h2 {
-  color: #ffd36a;
+.kotak-tanggal .jam h6 {
+  position: absolute;
+  width: 76px;
+  height: 30px;
+  left: 35px;
+  top: 150px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFD369;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-section .profil h6 {
+.kotak-tanggal .menit h1 {
+  position: absolute;
+  width: 135px;
+  height: 119px;
+  left: 8px;
+  top: 16px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 119px;
+  color: #FFD369;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.kotak-tanggal .menit h6 {
+  position: absolute;
+  width: 101px;
+  height: 30px;
+  left: 30px;
+  top: 150px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFD369;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.kotak-tanggal .detik h1 {
+  position: absolute;
+  width: 129px;
+  height: 119px;
+  left: 11px;
+  top: 16px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 119px;
+  color: #FFD369;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.kotak-tanggal .detik h6 {
+  position: absolute;
+  width: 53px;
+  height: 30px;
+  left: 50px;
+  top: 150px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFD369;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.kotak-tanggal .hiasan {
+  position: absolute;
+  width: 577.32px;
+  height: 120px;
+  left: 340px;
+  top: 480px;
+  background: url(../img/logo-hiasan.png);
+}
+
+.kotak-pasangan {
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  left: 0px;
+  top: 1724px;
+  background: #393E46;
+}
+
+.kotak-pasangan .pasangan {
+  position: absolute;
+  width: 348px;
+  height: 79px;
+  left: 450px;
+  top: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 79px;
+  text-align: center;
+  color: white;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.kotak-pasangan img {
+  position: absolute;
+  width: 921px;
+  height: 30px;
+  left: 190px;
+  top: 119px;
+}
+
+.kotak-pasangan .profilP {
+  position: absolute;
+  width: 217.6px;
+  height: 219.2px;
+  left: 176.2px;
+  top: 200px;
+  background: url(../img/perempuan.jpg);
+}
+
+.kotak-pasangan .profilL {
+  position: absolute;
+  width: 217.6px;
+  height: 219.2px;
+  left: 160.2px;
+  top: 200px;
+  background: url(../img/laki.jpg);
+}
+
+.kotak-pasangan h2 {
+  position: absolute;
+  width: 490px;
+  height: 52px;
+  left: 40px;
+  top: 430px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+  color: #FFD369;
+}
+
+.kotak-pasangan p {
+  position: absolute;
+  width: 360px;
+  height: 60px;
+  left: 105px;
+  top: 500px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
   color: white;
 }
 
-section .profil p {
-  font-size: 10px;
+.kotak-pasangan .ig {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 247px;
+  top: 580px;
+  background: url(../img/instagram.png);
 }
 
-section .row img {
-  width: 300px;
+.kotak-pasangan .igNama {
+  position: absolute;
+  width: 73px;
+  height: 17px;
+  left: 270px;
+  top: 580px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
 }
 
-section .galeri {
-  margin-right: 150px;
+.kotak-peta {
+  position: absolute;
+  width: 100%;
+  height: 733px;
+  left: 0px;
+  top: 2424px;
+  background: #393E46;
 }
 
-section .jadwal {
+.kotak-peta p {
+  position: absolute;
+  width: 648px;
+  height: 79px;
+  left: 300px;
+  top: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 79px;
+  text-align: center;
+  color: white;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.kotak-peta img {
+  position: absolute;
+  width: 917px;
+  height: 30px;
+  left: 165px;
+  top: 119px;
+}
+
+.kotak-peta span {
+  position: absolute;
+  width: 490px;
+  height: 90px;
+  left: 20px;
+  margin-top: 175px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  color: #FFD369;
+}
+
+.kotak-peta .jadwal p {
+  position: absolute;
+  width: 490px;
+  height: 85px;
+  left: 20px;
+  top: 325px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
   text-align: left;
-}
-
-section .jadwal h3 {
-  color: #ffd36a;
-}
-
-section .jadwal p {
-  color: white;
-  font-size: 15px;
-}
-
-section .jadwal span {
-  font-size: 13px;
   color: white;
 }
 
-section h5 {
-  color: #ffd36a;
-}
-
-section footer {
-  background-color: #ffd36a;
+footer {
+  background-color: #FFD369;
   height: 70px;
 }
 
-section footer p {
+footer p {
   font-size: 7.5px;
 }
 
-section footer .usigi {
+footer .usigi {
   font-family: 'Sacramento', cursive;
   font-weight: bold;
   color: black;
