@@ -1,6 +1,7 @@
 // FONT
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 // VARIABLE
 $primaryColor:#393E46;
@@ -18,7 +19,6 @@ body {
 
 }
 
-// === JUMBOTRON ===
 .jumbotron {
     background-image: url(../img/pasangan.jpg);
     background-size: cover;
@@ -30,22 +30,19 @@ body {
     .container {
         position: relative;
         z-index: 1;
+        margin-top: 353px;
     }
 
     img {
-        position: absolute;
         width: 502px;
-        height: 80px;
-        left: 319px;
-        top: 353px;
     }
 
     .nama {
         color: $textColor;
         font-weight: $textWeightPrimer;
+        left: 150px;
+        margin-top: 80px;
         position: absolute;
-        left: 121px;
-        top: 453px;
 
         font-style: normal;
         font-weight: bold;
@@ -56,16 +53,12 @@ body {
 
     .lead {
         color: $textColorsecond;
-        position: absolute;
-        width: 625px;
-        height: 30px;
-        left: 271px;
-        top: 592px;
-
+        margin-top: 130px;
         font-style: normal;
         font-weight: normal;
         font-size: 24px;
         line-height: 30px;
+
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 
@@ -81,377 +74,176 @@ body {
     bottom: 0;
 }
 
-
-// === KOTAK TANGGAL ===
-
-.kotak-tanggal {
-    position: absolute;
-    width: 100%;
-    height: 700px;
-    left: 0px;
-    top: 1024px;
+section {
     background-color: $primaryColor;
+    margin-top: -35px;
     text-align: $textPosition;
 
-    .tanggal {
-        color: $textColorsecond;
-        position: absolute;
-        width: 544px;
-        height: 79px;
-        left: 360px;
-        top: 20px;
-
+    p {
         font-style: normal;
         font-weight: normal;
         font-size: 64px;
         line-height: 79px;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: $textColorsecond;
     }
 
-    img {
-        position: absolute;
-        width: 572px;
-        height: 30px;
-        left: 350px;
-        top: 139px;
-    }
+    .bungkus-tanggal {
+        .row {
+            margin-top: 66px;
 
-    .row {
-        position: absolute;
-        width: 900px;
-        height: 180px;
-        left: 200px;
-        top: 235px;
-    }
+            h1 {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 96px;
+                line-height: 119px;
+                color: $textColor;
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            }
 
-    .hari {
-        h1 {
-            position: absolute;
-            width: 115px;
-            height: 119px;
-            left: 18px;
-            top: 16px;
-
-            font-style: normal;
-            font-weight: bold;
-            font-size: 96px;
-            line-height: 119px;
-            color: $textColor;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            h6 {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 30px;
+                color: $textColor;
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            }
         }
 
-        h6 {
-            position: absolute;
-            width: 60px;
-            height: 30px;
-            left: 50px;
-            top: 150px;
+        .hiasan img {
+            width: 577.32px;
+            height: 120px;
+            margin-top: 100px;
 
+        }
+
+    }
+
+    .bungkus-profil {
+        height: 700px;
+
+        p {
+            margin-top: 120px;
+        }
+
+        .profil {
+            img {
+                width: 217.6px;
+                height: 219.2px;
+                margin-top: 23.8px;
+            }
+
+            h2 {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 42px;
+                line-height: 52px;
+                text-align: center;
+                margin-top: 20px;
+                color: $textColor;
+            }
+
+            span {
+                width: 360px;
+                height: 60px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 17px;
+                text-align: center;
+                margin-top: 10px;
+                color: $textColorsecond;
+            }
+
+            .igP {
+                margin-top: 50px;
+            }
+
+            h6 {
+                margin-top: 29px;
+                color: $textColorsecond;
+            }
+        }
+    }
+
+    .bungkus-peta {
+        .jadwal {
+            text-align: left;
+
+            h3 {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 36px;
+                line-height: 45px;
+                color: $textColor;
+                margin-top: 34px;
+            }
+
+            p {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 17px;
+                color: $textColorsecond;
+            }
+
+            .row {
+
+                p {
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: $textColorsecond;
+                }
+
+                span {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: $textColorsecond;
+                }
+
+                h5 {
+                    color: $textColor;
+                }
+
+
+            }
+        }
+    }
+
+    .bungkus-foto {
+        .galeri {
+            margin-top: 40px;
+        }
+    }
+
+
+    footer {
+        background-color: $textColor;
+        height: 100px;
+
+        p {
+            font-family: 'Lora', serif;
             font-style: normal;
             font-weight: normal;
-            font-size: 24px;
-            line-height: 30px;
-            color: $textColor;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            font-size: 14px;
+            line-height: 18px;
+            text-align: center;
+            color: $primaryColor;
         }
 
-    }
-
-    .jam {
-        h1 {
-            position: absolute;
-            width: 105px;
-            height: 119px;
-            left: 23px;
-            top: 16px;
-
-            font-style: normal;
-            font-weight: bold;
-            font-size: 96px;
-            line-height: 119px;
-            color: $textColor;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
-
-        h6 {
-            position: absolute;
-            width: 76px;
-            height: 30px;
-            left: 35px;
-            top: 150px;
-
+        h5 {
+            font-family: 'Pacifico', cursive;
             font-style: normal;
             font-weight: normal;
-            font-size: 24px;
-            line-height: 30px;
-            color: $textColor;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
+            font-size: 36px;
+            line-height: 63px;
+            text-align: center;
+            color: $primaryColor;
         }
-
     }
-
-    .menit {
-        h1 {
-            position: absolute;
-            width: 135px;
-            height: 119px;
-            left: 8px;
-            top: 16px;
-
-            font-style: normal;
-            font-weight: bold;
-            font-size: 96px;
-            line-height: 119px;
-            color: $textColor;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
-
-        h6 {
-            position: absolute;
-            width: 101px;
-            height: 30px;
-            left: 30px;
-            top: 150px;
-
-            font-style: normal;
-            font-weight: normal;
-            font-size: 24px;
-            line-height: 30px;
-            color: $textColor;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
-
-    }
-
-    .detik {
-        h1 {
-            position: absolute;
-            width: 129px;
-            height: 119px;
-            left: 11px;
-            top: 16px;
-
-            font-style: normal;
-            font-weight: bold;
-            font-size: 96px;
-            line-height: 119px;
-            color: $textColor;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
-
-        h6 {
-            position: absolute;
-            width: 53px;
-            height: 30px;
-            left: 50px;
-            top: 150px;
-
-            font-style: normal;
-            font-weight: normal;
-            font-size: 24px;
-            line-height: 30px;
-            color: $textColor;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
-
-    }
-
-    .hiasan {
-        position: absolute;
-        width: 577.32px;
-        height: 120px;
-        left: 340px;
-        top: 480px;
-        background: url(../img/logo-hiasan.png);
-    }
-}
-
-
-// KOTAK PASANGAN
-
-.kotak-pasangan {
-    position: absolute;
-    width: 100%;
-    height: 700px;
-    left: 0px;
-    top: 1724px;
-    background: $primaryColor;
-
-    .pasangan {
-        position: absolute;
-        width: 348px;
-        height: 79px;
-        left: 450px;
-        top: 20px;
-
-        font-style: normal;
-        font-weight: normal;
-        font-size: 64px;
-        line-height: 79px;
-        text-align: center;
-        color: $textColorsecond;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-    img {
-        position: absolute;
-        width: 921px;
-        height: 30px;
-        left: 190px;
-        top: 119px;
-    }
-
-    .profilP {
-        position: absolute;
-        width: 217.6px;
-        height: 219.2px;
-        left: 176.2px;
-        top: 200px;
-        background: url(../img/perempuan.jpg);
-    }
-
-    .profilL {
-        position: absolute;
-        width: 217.6px;
-        height: 219.2px;
-        left: 160.2px;
-        top: 200px;
-        background: url(../img/laki.jpg);
-    }
-
-    h2 {
-        position: absolute;
-        width: 490px;
-        height: 52px;
-        left: 40px;
-        top: 430px;
-
-        font-style: normal;
-        font-weight: bold;
-        font-size: 42px;
-        line-height: 52px;
-        text-align: $textPosition;
-        color: $textColor;
-    }
-
-    p {
-        position: absolute;
-        width: 360px;
-        height: 60px;
-        left: 105px;
-        top: 500px;
-
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 17px;
-        text-align: center;
-        color: $textColorsecond;
-    }
-
-    .ig {
-        position: absolute;
-        width: 18px;
-        height: 18px;
-        left: 247px;
-        top: 580px;
-        background: url(../img/instagram.png);
-    }
-
-    .igNama {
-        position: absolute;
-        width: 73px;
-        height: 17px;
-        left: 270px;
-        top: 580px;
-
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 17px;
-        color: $textColorsecond;
-    }
-}
-
-.kotak-peta {
-    position: absolute;
-    width: 100%;
-    height: 733px;
-    left: 0px;
-    top: 2424px;
-    background: $primaryColor;
-
-    p {
-        position: absolute;
-        width: 648px;
-        height: 79px;
-        left: 300px;
-        top: 20px;
-
-        font-style: normal;
-        font-weight: normal;
-        font-size: 64px;
-        line-height: 79px;
-        text-align: center;
-        color: $textColorsecond;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-    img {
-        position: absolute;
-        width: 917px;
-        height: 30px;
-        left: 165px;
-        top: 119px;
-    }
-
-    span {
-        position: absolute;
-        width: 490px;
-        height: 90px;
-        left: 20px;
-        margin-top: 175px;
-
-        font-style: normal;
-        font-weight: bold;
-        font-size: 36px;
-        line-height: 45px;
-        color: $textColor;
-    }
-
-    .jadwal p {
-        position: absolute;
-        width: 490px;
-        height: 85px;
-        left: 20px;
-        top: 325px;
-
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 17px;
-        text-align: left;
-        color: $textColorsecond;
-
-    }
-
-}
-
-
-footer {
-    background-color: $textColor;
-    height: 70px;
-
-    p {
-        font-size: $textSize/2;
-    }
-
-    .usigi {
-        font-family: 'Sacramento', cursive;
-        font-weight: $textWeightPrimer;
-        color: black;
-
-    }
-
 }
