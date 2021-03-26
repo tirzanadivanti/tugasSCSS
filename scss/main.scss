@@ -218,6 +218,10 @@ section {
     .bungkus-foto {
         .galeri {
             margin-top: 40px;
+
+            img {
+                object-fit: cover;
+            }
         }
     }
 

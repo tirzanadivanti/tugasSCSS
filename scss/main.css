@@ -191,6 +191,11 @@ section .bungkus-foto .galeri {
   margin-top: 40px;
 }
 
+section .bungkus-foto .galeri img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 section footer {
   background-color: #FFD369;
   height: 100px;
